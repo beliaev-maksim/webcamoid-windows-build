@@ -19,7 +19,7 @@ jobs:
       matrix:
        include:
          - target_arch: x86_64
-           compiler: clang
+           compiler: gcc
     env:
       TARGET_ARCH: ${{ matrix.target_arch }}
       COMPILER: ${{ matrix.compiler }}
